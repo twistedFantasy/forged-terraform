@@ -7,7 +7,7 @@ locals {
 }
 
 terraform {
-  source = "https://github.com/twistedFantasy/terraform-modules-v2.git//aws-static-website-hosting?ref=v0.0.1"
+  source = "github.com/twistedFantasy/terraform-modules-v2.git//aws-static-website-hosting?ref=v0.0.1"
 }
 
 inputs = {
